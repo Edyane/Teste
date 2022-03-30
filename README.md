@@ -1,1 +1,1 @@
-# Teste Pratico de HTML e CSS
+# Teste Prático de HTML e CSS
