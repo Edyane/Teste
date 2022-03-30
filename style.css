@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto&display=swap');
+
+* { margin: 0; padding: 0; }
+
+body {
+    background-color: #E5E5E5;
+}
+
+#logo {
+    width: 64px;
+    height: 32px;
+    left: 90px;
+    top: 75px;
+    margin: 10px;
+}
+
+#nome-pagina {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #133E79;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-right: 20px;
+    margin-left: 30px;
+}
+
+#nav-left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+#nav-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 75px;
+    gap: 10px 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.v-line {
+    border-left: solid #008940;
+    width: thin;
+    margin-top: 70px;
+    height:15%;
+    left: 28%;
+    position: absolute;
+}
+
+.v-line-2 {
+    border-left: solid #008940;
+    width: thin;
+    margin-bottom: 90px;
+    height:13%;
+    left: 28%;
+    position: absolute;
+}
+
+.paragrafo1 {
+    margin-top: 180px;
+    margin-bottom: 10px;
+    color: #133E79;
+    font-size: 80px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400, regular;   
+    line-height: 106.64px;
+    text-align: center;
+}
+
+.paragrafo2 {
+    margin-top: 3px;
+    color: #008940;
+    font-size: 80px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    line-height: 106.64px;
+    text-align: center;
+}
+
+.item-box {
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item-box div {
+    width: 50%;
+    display: inline-block;
+    flex: 1 1 50%;
+}
+
+.item-box .button {
+    color:#ffffff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin-top: 180px;
+    margin-left: 200px;
+    margin-right: 230px;
+    width: 40%;
+    background-color: #133E79;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.slider {
+    display: block;
+    height: 293px;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+
+.slider img {
+    margin: auto;
+    height: 710px;
+    width: 735px;
+    vertical-align: top;
+}
+
+.slider input {
+    display: none;
+}
+
+.slider label {
+    background-color: #008940;
+    border-color: #ffffff;
+    bottom: 10px;
+    border-radius: 27px;
+    cursor: pointer;
+    display: block;
+    height: 27px;
+    position: absolute;
+    width: 27px;
+    z-index: 10;
+}
+
+.slider li:nth-child(1) label {
+    left: 10px;
+}
+
+.slider li:nth-child(2) label {
+    left: 40px;
+}
+
+.slider li:nth-child(3) label {
+    left: 70px;
+}
+
+.slider img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+.banner {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.heading {
+    position: absolute;
+    top: 70%;
+    right: 5%;
+    left: 15%;
+    width: 100%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.12em;
+    color: #FFFFFF;
+}
+
+
+.heading2 {
+    position: absolute;
+    top: 75%;
+    right: 5%;
+    left: 15%;
+    width: 100%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;  
+}
+
+.heading3 {
+    position: absolute;
+    top: 80%;
+    right: 5%;
+    left: 15%;
+    width: 100%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;  
+}
+
+
